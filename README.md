@@ -1,6 +1,7 @@
 The API Service will have the following functions:
 
 JOBS:
+
 /loadhistoricaldatajob : Load historical job data 
 
 /backupjob : Backup the job table in avro file 
@@ -18,6 +19,7 @@ JOBS:
 /updatejobid/{id} : Update a specific job 
 
 DEPARTMENT:
+
 /loadhistoricaldatadepartment: Load historical department data 
 
 /backupdepartment: Backup the department table in avro file 
@@ -35,6 +37,7 @@ DEPARTMENT:
 /updatedepartmentid/{id}: Update a specific department 
 
 EMPLOYEE:
+
 /loadhistoricaldataemployee: Load historical employee data 
 
 /backupemployee: Backup the employee table in avro file 
@@ -52,6 +55,7 @@ EMPLOYEE:
 /updateemployeeid/{id}: Update a specific employee 
 
 SQL
+
 exercise1.sql:number of employees hired for each job and department in 2021 divided by quarter. The table must be ordered alphabetically by department and job.
 
 exercise2.sql:List of ids, name and number of employees hired of each department that hired more employees than the mean of employees hired in 2021 for all the departments, ordered by the number of employees hired (descending).
